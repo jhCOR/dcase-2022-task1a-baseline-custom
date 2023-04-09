@@ -1,7 +1,7 @@
 # Extracts the features, labels, and normalizes the development and evaluation split features.
 
 import cls_feature_class
-import parameters
+from .parameters import parameters
 import sys
 
 

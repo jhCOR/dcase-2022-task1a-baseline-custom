@@ -9,7 +9,7 @@ import matplotlib.pyplot as plot
 import cls_feature_class
 import cls_data_generator
 import seldnet_model
-import parameters
+from .parameters import parameters
 import time
 from time import gmtime, strftime
 import torch

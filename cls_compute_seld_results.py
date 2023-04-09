@@ -1,7 +1,7 @@
 import os
 import SELD_evaluation_metrics
 import cls_feature_class
-import parameters
+from .parameters import parameters
 import numpy as np
 from scipy import stats
 from IPython import embed

@@ -6,7 +6,7 @@ import os
 import sys
 import cls_data_generator
 import seldnet_model
-import parameters
+from .parameters import parameters
 import torch
 from IPython import embed
 import matplotlib
